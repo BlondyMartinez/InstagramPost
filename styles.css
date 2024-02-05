@@ -7,27 +7,43 @@ img{
     width: 100%;
 }
 
+.float-right{
+    float: right;
+}
+.icon-padding {
+    padding-right: 10px;
+}
+.margin-top {
+    margin-top: 10px;
+}
+
 .post {
     margin: 50px auto;
-    width: 40%;
+    width: 700px;
     background-color: white;
     display: block;
 }
 .post-header{
     display: flex;
-    padding: 20px;
+    padding: 30px;
 }
 .post-header h1 {
     font-weight: normal;
+    width: 100%;
 }
 .profile-img{
     border-radius: 50%;
 	width: 100px;
     height: 100px;
-    margin-right: 10px;
+    margin: 10px 10px 0 0;
     object-fit: cover;
 }
 .post-body{
-    padding: 20px;
-    font-size: 35px;
+    padding: 30px;
+}
+.post-body p {
+    font-size: 25px;
+}
+.post-icons{
+    padding: 20px 20px 0 20px;
 }
